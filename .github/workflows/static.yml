@@ -34,18 +34,19 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload index
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           path: './index.html'
+          overwrite: true
       - name: Upload assets
         uses: actions/upload-pages-artifact@v3
         with:
           path: './assets'
       - name: Upload script
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
-          # Upload entire repository
           path: './pitbox-preview.js'
+          overwrite: true
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
