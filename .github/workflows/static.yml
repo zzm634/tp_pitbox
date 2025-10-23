@@ -33,20 +33,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload index
-        uses: actions/upload-artifact@v4
-        with:
-          path: './index.html'
-          overwrite: true
       - name: Upload assets
         uses: actions/upload-pages-artifact@v3
+        # fine just upload the whole thing
         with:
-          path: './assets'
-      - name: Upload script
-        uses: actions/upload-artifact@v4
-        with:
-          path: './pitbox-preview-bundled.js'
-          overwrite: true
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
