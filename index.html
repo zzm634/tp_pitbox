@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Trading Paints pitbox preview</title>
+    <script type="module" src="./pitbox-preview.js"></script>
+    <script>
+      function updatePitboxPreviewColors() {
+        const pbp = document.getElementById("pitbox_preview");
+        const roof = document.getElementById("pbp_roof_color");
+        const box = document.getElementById("pbp_box_color");
+
+        pbp.roofColor = roof.value;
+        pbp.boxColor = box.value;
+      }
+    </script>  
+  </head>
+  <body>
+    <p>Roof: 
+    <input id="pbp_roof_color" onchange="updatePitboxPreviewColors()" value="#00FFFF">
+    </p>
+    <p>Box: 
+    <input id="pbp_box_color" onchange="updatePitboxPreviewColors()" value="#FF00FF">
+    </p>
+    <pitbox-preview id="pitbox_preview" roofColor="#00FFFF" boxColor="#FF00FF" />
+  </body>
+</html>

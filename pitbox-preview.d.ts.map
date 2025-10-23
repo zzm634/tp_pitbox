@@ -1,0 +1,1 @@
+{"version":3,"file":"pitbox-preview.d.ts","sourceRoot":"","sources":["src/pitbox-preview.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,KAAK,CAAC;AAyGjC,qBACa,aAAc,SAAQ,UAAU;IAGzC,SAAS,SAAa;IAGtB,QAAQ,SAAa;IAGrB,OAAO,SAAU;IAEjB,QAAQ,EAAW,IAAI,GAAG,gBAAgB,CAAC;IAC3C,QAAQ,EAAW,IAAI,GAAG,gBAAgB,CAAC;IAC3C,MAAM,EAAW,IAAI,GAAG,iBAAiB,CAAC;IAEjC,MAAM;IAwCf,IAAI;CA0BP"}
