@@ -62,7 +62,7 @@
     "lit-analyzer": "^1.2.1",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "rollup": "^4.18.0",
+    "rollup": "^4.52.5",
     "rollup-plugin-summary": "^2.0.1",
     "typescript": "~5.9.0"
   },

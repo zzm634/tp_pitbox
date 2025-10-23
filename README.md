@@ -12,3 +12,5 @@ I give Trading Paints permission to use the code for this web component (specifi
 
 This project was based on the `lit-starter-ts` template project from [the main Lit
 repo](https://github.com/lit/lit).
+
+[Demo here](https://zzm634.github.io/tp_pitbox/)
